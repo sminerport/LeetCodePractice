@@ -1,6 +1,6 @@
 ﻿namespace Problems;
 
-internal class P977_Squares_of_a_Sorted_Array
+public class P977_Squares_of_a_Sorted_Array
 {
     /// <summary>
     /// Sorts the squares of the integers in the specified array in ascending order using the Bubble Sort algorithm.
@@ -9,25 +9,32 @@ internal class P977_Squares_of_a_Sorted_Array
     public static int[] SortedSquaresWithBubbleSort(int[] nums)
     {
         int n = nums.Length;
+        var arr = new int[n];
+        Array.Copy(nums, arr, n);
+        for (int i = 0; i < n; i++)
+        {
+            arr[i] *= arr[i]; // Square each element
+        }
+
         for (int i = 0; i < n - 1; i++)
         {
             bool swapped = false;
             for (int j = 0; j < n - 1 - i; j++)
             {
-                if (nums[j] > nums[j + 1])
+                if (arr[j] > arr[j + 1])
                 {
-                    int temp = nums[j];
-                    nums[j] = nums[j + 1];
-                    nums[j + 1] = temp;
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
                     swapped = true;
                 }
-                if (!swapped)
-                {
-                    break;
-                }
+            }
+            if (!swapped) // If no two elements were swapped, the array is sorted
+            {
+                break;
             }
         }
-        return nums;
+        return arr;
     }
 
     /// <summary>
@@ -37,12 +44,16 @@ internal class P977_Squares_of_a_Sorted_Array
     /// <returns>An array of integers containing the squared values of the input array, sorted in ascending order.</returns>
     public static int[] SortedSquaresWithBuiltInSort(int[] nums)
     {
-        for (int i = 0; i < nums.Length; i++)
+        int n = nums.Length;
+        var arr = new int[n];
+        Array.Copy(nums, arr, n);
+
+        for (int i = 0; i < arr.Length; i++)
         {
-            nums[i] *= nums[i]; // Square each element
+            arr[i] *= arr[i]; // Square each element
         }
-        Array.Sort(nums);
-        return nums;
+        Array.Sort(arr);
+        return arr;
     }
 
     /// <summary>
@@ -54,8 +65,10 @@ internal class P977_Squares_of_a_Sorted_Array
     /// <returns>An array of integers containing the squares of the input elements, sorted in ascending order.</returns>
     public static int[] SortedSquaresWithLINQ(int[] nums)
     {
-        // Using LINQ to square each element and sort the result
-        return nums.Select(x => x * x).OrderBy(x => x).ToArray();
+        int n = nums.Length;
+        var arr = new int[n];
+        Array.Copy(nums, arr, n);
+        return arr.Select(x => x * x).OrderBy(x => x).ToArray();
     }
 
     /// <summary>
