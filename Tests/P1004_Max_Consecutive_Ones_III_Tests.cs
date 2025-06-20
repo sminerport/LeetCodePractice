@@ -18,7 +18,7 @@ public class P1004_Max_Consecutive_Ones_III_Tests
         var solution = new Problems.P1004_Max_Consecutive_Ones_III();
         int[] nums = { 0, 0, 1, 1, 1, 0, 1, 1 };
         int k = 1;
-        int expected = 5;
+        int expected = 6;
         Assert.Equal(expected, solution.LongestOnes(nums, k));
     }
 
@@ -102,7 +102,7 @@ public class P1004_Max_Consecutive_Ones_III_Tests
         var solution = new Problems.P1004_Max_Consecutive_Ones_III();
         int[] nums = { 1, 1, 1, 0, 1, 1 };
         int k = 0; // No flips allowed
-        int expected = 5; // The longest contiguous ones without flips
+        int expected = 3; // The longest contiguous ones without flips
         Assert.Equal(expected, solution.LongestOnes(nums, k));
     }
 
@@ -152,7 +152,7 @@ public class P1004_Max_Consecutive_Ones_III_Tests
         var solution = new Problems.P1004_Max_Consecutive_Ones_III();
         int[] nums = { 0, 0, 1, 1, 1, 0, 1 };
         int k = 2; // Allow flipping two zeros to ones
-        int expected = 5; // Flipping the two leading zeros to ones
+        int expected = 6; // Flipping the two leading zeros to ones
         Assert.Equal(expected, solution.LongestOnes(nums, k));
     }
 
@@ -162,7 +162,7 @@ public class P1004_Max_Consecutive_Ones_III_Tests
         var solution = new Problems.P1004_Max_Consecutive_Ones_III();
         int[] nums = { 1, 1, 0, 0, 1, 1, 0 };
         int k = 2; // Allow flipping two zeros to ones
-        int expected = 5; // Flipping the two trailing zeros to ones
+        int expected = 6; // Flipping the two trailing zeros to ones
         Assert.Equal(expected, solution.LongestOnes(nums, k));
     }
 
