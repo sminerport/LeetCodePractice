@@ -6,7 +6,7 @@
 /// <remarks>This class includes methods for computing the product of array elements excluding the current index,
 /// both with a two-pass approach and an optimized single-pass approach. These methods avoid division  and operate with
 /// O(n) time complexity. The input array must not be null, and its length must be at least 1.</remarks>
-public class P238_Product_of_Array_Except_Self
+public class P0238_Product_of_Array_Except_Self
 {
     /// <summary>
     /// Calculates the product of all elements in the input array except the element at each index.
