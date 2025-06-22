@@ -1,5 +1,12 @@
 ﻿namespace Problems;
 
+/// <summary>
+/// LeetCode problem 1480. Running Sum of 1d Array. Return the running sum of an array.
+/// </summary>
+/// <remarks>
+/// Category: Prefix Sum
+/// LeetCode link: https://leetcode.com/problems/running-sum-of-1d-array/
+/// </remarks>
 public class P1480_Running_Sum_of_1d_Array
 {
     /// <summary>

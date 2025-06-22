@@ -1,11 +1,12 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Provides methods to duplicate zeros in an array by shifting elements to the right.
+/// LeetCode problem 1089. Duplicate Zeros. Duplicate each occurrence of zero in-place shifting the remaining elements.
 /// </summary>
-/// <remarks>This class contains methods that modify the input array in place to duplicate each occurrence of
-/// zero. The array's size remains unchanged, and elements shifted beyond the original array length are discarded. These
-/// methods are designed to efficiently handle the duplication process without requiring additional memory.</remarks>
+/// <remarks>
+/// Category: In-place Array
+/// LeetCode link: https://leetcode.com/problems/duplicate-zeros/
+/// </remarks>
 public class P1089_Duplicate_Zeros
 {
     /// <summary>

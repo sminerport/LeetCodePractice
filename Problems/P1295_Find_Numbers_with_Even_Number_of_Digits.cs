@@ -1,11 +1,12 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Provides methods to count numbers with an even number of digits in an array.
+/// LeetCode problem 1295. Find Numbers with Even Number of Digits. Count how many numbers contain an even number of digits.
 /// </summary>
-/// <remarks>This class contains multiple implementations for determining whether numbers in an array have an even
-/// number of digits. Each method uses a different approach, such as logarithmic calculations, string manipulation, or
-/// iterative division.</remarks>
+/// <remarks>
+/// Category: Counting
+/// LeetCode link: https://leetcode.com/problems/find-numbers-with-even-number-of-digits/
+/// </remarks>
 public class P1295_Find_Numbers_with_Even_Number_of_Digits
 {
     /// <summary>

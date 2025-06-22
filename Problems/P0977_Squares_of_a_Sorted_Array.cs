@@ -1,5 +1,12 @@
 ﻿namespace Problems;
 
+/// <summary>
+/// LeetCode problem 977. Squares of a Sorted Array. Return the squares of the array sorted in non-decreasing order.
+/// </summary>
+/// <remarks>
+/// Category: Two Pointers
+/// LeetCode link: https://leetcode.com/problems/squares-of-a-sorted-array/
+/// </remarks>
 public class P977_Squares_of_a_Sorted_Array
 {
     /// <summary>

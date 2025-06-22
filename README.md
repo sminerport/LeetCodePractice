@@ -39,19 +39,19 @@ To execute the console runner or benchmarks:
 
 Implemented solutions currently include:
 
-- [x] 27. Remove Element (`P0027_Remove_Element`)
-- [x] 88. Merge Sorted Array (`P0088_Merge_Sorted_Array`)
-- [x] 485. Max Consecutive Ones (`P0485_Max_Consecutive_Ones`)
-- [x] 605. Can Place Flowers (`P0605_Can_Place_Flowers`)
-- [x] 643. Maximum Average Subarray I (`P0643_Maximum_Average_Subarray_I`)
-- [x] 977. Squares of a Sorted Array (`P0977_Squares_of_a_Sorted_Array`)
-- [x] 1004. Max Consecutive Ones III (`P1004_Max_Consecutive_Ones_III`)
-- [x] 1071. Greatest Common Divisor of Strings (`P1071_Greatest_Common_Divisor_of_Strings`)
-- [x] 1089. Duplicate Zeros (`P1089_Duplicate_Zeros`)
-- [x] 1295. Find Numbers with Even Number of Digits (`P1295_Find_Numbers_with_Even_Number_of_Digits`)
-- [x] 1431. Kids With the Greatest Number of Candies (`P1431_Kids_With_the_Greatest_Number_of_Candies`)
-- [x] 1480. Running Sum of 1d Array (`P1480_Running_Sum_of_1d_Array`)
-- [x] 1768. Merge Strings Alternately (`P1768_MergeStrings`)
+- [x] 27. Remove Element (`P0027_Remove_Element`) — **Category:** Two Pointers
+- [x] 88. Merge Sorted Array (`P0088_Merge_Sorted_Array`) — **Category:** Two Pointers
+- [x] 485. Max Consecutive Ones (`P0485_Max_Consecutive_Ones`) — **Category:** Sliding Window
+- [x] 605. Can Place Flowers (`P0605_Can_Place_Flowers`) — **Category:** Greedy
+- [x] 643. Maximum Average Subarray I (`P0643_Maximum_Average_Subarray_I`) — **Category:** Sliding Window
+- [x] 977. Squares of a Sorted Array (`P0977_Squares_of_a_Sorted_Array`) — **Category:** Two Pointers
+- [x] 1004. Max Consecutive Ones III (`P1004_Max_Consecutive_Ones_III`) — **Category:** Sliding Window
+- [x] 1071. Greatest Common Divisor of Strings (`P1071_Greatest_Common_Divisor_of_Strings`) — **Category:** String Manipulation
+- [x] 1089. Duplicate Zeros (`P1089_Duplicate_Zeros`) — **Category:** In-place Array
+- [x] 1295. Find Numbers with Even Number of Digits (`P1295_Find_Numbers_with_Even_Number_of_Digits`) — **Category:** Counting
+- [x] 1431. Kids With the Greatest Number of Candies (`P1431_Kids_With_the_Greatest_Number_of_Candies`) — **Category:** Array
+- [x] 1480. Running Sum of 1d Array (`P1480_Running_Sum_of_1d_Array`) — **Category:** Prefix Sum
+- [x] 1768. Merge Strings Alternately (`P1768_MergeStrings`) — **Category:** Two Pointers
 
 Each class in the `Problems` folder is paired with tests where available.
 

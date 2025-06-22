@@ -1,11 +1,12 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Provides methods for merging arrays, including merging sorted arrays into a single sorted array.
+/// LeetCode problem 88. Merge Sorted Array. Merge two sorted arrays into one sorted array in-place.
 /// </summary>
-/// <remarks>This class contains utility methods for merging arrays, such as concatenating and sorting arrays or
-/// merging two sorted arrays. The methods are designed to modify the first array in-place, ensuring it contains the
-/// merged result.</remarks>
+/// <remarks>
+/// Category: Two Pointers
+/// LeetCode link: https://leetcode.com/problems/merge-sorted-array/
+/// </remarks>
 public class P88_Merge_Sorted_Array
 {
     /// <summary>

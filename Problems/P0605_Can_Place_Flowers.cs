@@ -1,12 +1,12 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Provides methods to determine whether a specified number of flowers can be planted in a flowerbed without violating
-/// the rule that no two flowers can be adjacent.
+/// LeetCode problem 605. Can Place Flowers. Determine if <c>n</c> new flowers can be planted without violating adjacency rules.
 /// </summary>
-/// <remarks>This class contains methods that simulate planting flowers in a flowerbed represented as an array.
-/// The methods modify the input array during execution, so callers should create a copy of the array if the original
-/// state needs to be preserved.</remarks>
+/// <remarks>
+/// Category: Greedy
+/// LeetCode link: https://leetcode.com/problems/can-place-flowers/
+/// </remarks>
 public class P605_Can_Place_Flowers
 {
     /// <summary>

@@ -6,6 +6,13 @@ using System.Threading.Tasks;
 
 namespace Problems;
 
+/// <summary>
+/// LeetCode problem 1071. Greatest Common Divisor of Strings. Find the largest string that divides two strings.
+/// </summary>
+/// <remarks>
+/// Category: String Manipulation
+/// LeetCode link: https://leetcode.com/problems/greatest-common-divisor-of-strings/
+/// </remarks>
 public class P1071_Greatest_Common_Divisor_of_Strings
 {
     /// <summary>

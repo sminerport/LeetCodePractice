@@ -1,5 +1,12 @@
 ﻿namespace Problems;
 
+/// <summary>
+/// LeetCode problem 1768. Merge Strings Alternately. Merge two strings by alternating characters.
+/// </summary>
+/// <remarks>
+/// Category: Two Pointers
+/// LeetCode link: https://leetcode.com/problems/merge-strings-alternately/
+/// </remarks>
 public static class MergeStrings1768
 {
     /// <summary>
