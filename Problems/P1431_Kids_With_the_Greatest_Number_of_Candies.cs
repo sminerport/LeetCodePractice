@@ -1,11 +1,12 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Determines which children can have the greatest number of candies if given extra candies.
+/// LeetCode problem 1431. Kids With the Greatest Number of Candies. Determine which kids could have the greatest candies after extra are given.
 /// </summary>
-/// <remarks>This method evaluates each child's candy count and determines whether adding the specified  number of
-/// extra candies would make their total equal to or exceed the maximum candy count  among all children. The result is a
-/// list of boolean values indicating whether each child  meets this condition.</remarks>
+/// <remarks>
+/// Category: Array
+/// LeetCode link: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+/// </remarks>
 public class P1431_Kids_With_the_Greatest_Number_of_Candies
 {
     /// <summary>

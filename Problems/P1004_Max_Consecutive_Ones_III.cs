@@ -1,5 +1,12 @@
 ﻿namespace Problems
 {
+    /// <summary>
+    /// LeetCode problem 1004. Max Consecutive Ones III. Find the longest subarray with at most <c>k</c> zeros.
+    /// </summary>
+    /// <remarks>
+    /// Category: Sliding Window
+    /// LeetCode link: https://leetcode.com/problems/max-consecutive-ones-iii/
+    /// </remarks>
     public class P1004_Max_Consecutive_Ones_III
     {
         /// <summary>

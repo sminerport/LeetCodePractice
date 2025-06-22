@@ -1,11 +1,12 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Provides methods to calculate the maximum number of consecutive 1s in a binary array.
+/// LeetCode problem 485. Max Consecutive Ones. Return the maximum number of consecutive 1s in a binary array.
 /// </summary>
-/// <remarks>This class includes utility methods for analyzing binary arrays, specifically to find the longest
-/// sequence of consecutive 1s. The input arrays for all methods must contain only binary values (0s and 1s). Behavior
-/// is undefined for arrays containing other values.</remarks>
+/// <remarks>
+/// Category: Sliding Window
+/// LeetCode link: https://leetcode.com/problems/max-consecutive-ones/
+/// </remarks>
 public class P485_Max_Consecutive_Ones
 {
     /// <summary>

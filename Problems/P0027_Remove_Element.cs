@@ -1,12 +1,12 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Provides methods for removing occurrences of a specified value from an array using different strategies.
+/// LeetCode problem 27. Remove Element. Remove all occurrences of a value in-place and return the new length.
 /// </summary>
-/// <remarks>The <see cref="P27_Remove_Element"/> class contains methods that modify an input array in-place to
-/// remove all occurrences of a specified value. Each method employs a distinct approach, such as overwriting elements,
-/// swapping elements, or shifting elements, to achieve the desired result. These methods return the count of remaining
-/// valid elements in the array after the removal operation.</remarks>
+/// <remarks>
+/// Category: Two Pointers
+/// LeetCode link: https://leetcode.com/problems/remove-element/
+/// </remarks>
 public class P27_Remove_Element
 {
     /// <summary>

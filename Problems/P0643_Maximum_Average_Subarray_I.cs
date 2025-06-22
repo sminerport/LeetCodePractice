@@ -1,5 +1,12 @@
 ﻿namespace Problems;
 
+/// <summary>
+/// LeetCode problem 643. Maximum Average Subarray I. Find the maximum average for any contiguous subarray of length <c>k</c>.
+/// </summary>
+/// <remarks>
+/// Category: Sliding Window
+/// LeetCode link: https://leetcode.com/problems/maximum-average-subarray-i/
+/// </remarks>
 public class P643_Maximum_Average_Subarray_I
 {
     /// <summary>
