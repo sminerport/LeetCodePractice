@@ -12,7 +12,9 @@ public class P485_Max_Consecutive_Ones
     /// Finds the maximum number of consecutive 1s in a binary array using a sliding window approach.
     /// </summary>
     /// <remarks>This method uses a sliding window technique to efficiently calculate the result. The input
-    /// array must contain only binary values (0s and 1s).</remarks>
+    /// array must contain only binary values (0s and 1s).
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">An array of integers containing only 0s and 1s.</param>
     /// <returns>The length of the longest subarray consisting of consecutive 1s.</returns>
     public int FindMaxConsecutiveOnesUsingWindow(int[] nums)
@@ -45,7 +47,9 @@ public class P485_Max_Consecutive_Ones
     /// Finds the maximum number of consecutive 1s in the specified array.
     /// </summary>
     /// <remarks>This method performs a linear scan of the array to determine the longest sequence of
-    /// consecutive 1s. The input array must contain only 0s and 1s; behavior is undefined for other values.</remarks>
+    /// consecutive 1s. The input array must contain only 0s and 1s; behavior is undefined for other values.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">An array of integers containing only 0s and 1s.</param>
     /// <returns>The maximum count of consecutive 1s in the array. Returns 0 if the array is empty or contains no 1s.</returns>
     public int FindMaxConsecutiveOnesLinearScan(int[] nums)

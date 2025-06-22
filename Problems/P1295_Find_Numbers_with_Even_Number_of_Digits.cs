@@ -13,7 +13,9 @@ public class P1295_Find_Numbers_with_Even_Number_of_Digits
     /// </summary>
     /// <remarks>A number is considered to have an even number of digits if its digit count is 2, 4, or 6.
     /// This method evaluates each number in the array and increments the count for numbers that meet this
-    /// criterion.</remarks>
+    /// criterion.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">An array of integers to evaluate.</param>
     /// <returns>The count of numbers in the array that have 2, 4, or 6 digits.</returns>
     public int FindNumbers_Range(int[] nums)
@@ -36,7 +38,9 @@ public class P1295_Find_Numbers_with_Even_Number_of_Digits
     /// Counts the numbers in the specified array that have an even number of digits.
     /// </summary>
     /// <remarks>This method uses the base-10 logarithm to determine the number of digits in each number.
-    /// Numbers with an even number of digits are identified and counted.</remarks>
+    /// Numbers with an even number of digits are identified and counted.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">An array of integers to evaluate. Each integer must be non-negative.</param>
     /// <returns>The count of numbers in <paramref name="nums"/> that have an even number of digits.</returns>
     public int FindNumbers_Log10(int[] nums)
@@ -58,6 +62,10 @@ public class P1295_Find_Numbers_with_Even_Number_of_Digits
     /// </summary>
     /// <param name="nums">An array of integers to evaluate. Cannot be null.</param>
     /// <returns>The count of numbers in the array that have an even number of digits.</returns>
+    /// <remarks>
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para>
+    /// </remarks>
     public int FindNumbers_String(int[] nums)
     {
         int count = 0;
@@ -75,7 +83,9 @@ public class P1295_Find_Numbers_with_Even_Number_of_Digits
     /// Counts the numbers in the specified array that have an even number of digits.
     /// </summary>
     /// <remarks>A number is considered to have an even number of digits if the total number of digits in its
-    /// decimal representation is divisible by 2.</remarks>
+    /// decimal representation is divisible by 2.
+    /// <para>Time complexity: O(n log m) where m is the largest number.</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">An array of integers to evaluate.</param>
     /// <returns>The count of numbers in <paramref name="nums"/> that have an even number of digits.</returns>
     public int FindNumbers_Divide(int[] nums)

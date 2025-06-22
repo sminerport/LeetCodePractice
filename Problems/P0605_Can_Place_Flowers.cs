@@ -16,7 +16,9 @@ public class P605_Can_Place_Flowers
     /// <remarks>This method modifies the input <paramref name="flowerbed"/> array to simulate planting
     /// flowers. If the caller needs to preserve the original state of the array, a copy should be made before calling
     /// this method. The method uses an optimized approach to exit early if the required number of flowers has been
-    /// planted.</remarks>
+    /// planted.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="flowerbed">An array representing the flowerbed, where 0 indicates an empty spot and 1 indicates a spot already occupied by
     /// a flower.</param>
     /// <param name="n">The number of flowers to plant. Must be a non-negative integer.</param>
@@ -49,7 +51,9 @@ public class P605_Can_Place_Flowers
     /// </summary>
     /// <remarks>This method performs a single scan of the flowerbed array to determine the feasibility of
     /// planting the specified number of flowers. The flowerbed array is modified during the process to simulate
-    /// planting flowers.</remarks>
+    /// planting flowers.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="flowerbed">An array representing the flowerbed, where 0 indicates an empty spot and 1 indicates a spot already occupied by
     /// a flower.</param>
     /// <param name="n">The number of flowers to plant. Must be a non-negative integer.</param>

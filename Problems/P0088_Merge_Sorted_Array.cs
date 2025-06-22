@@ -14,7 +14,9 @@ public class P88_Merge_Sorted_Array
     /// </summary>
     /// <remarks>After the operation, <paramref name="nums1"/> will contain all elements from both arrays,
     /// sorted in ascending order. Ensure that <paramref name="nums1"/> has a length of at least <paramref
-    /// name="m"/> + <paramref name="n"/> to avoid overwriting memory outside the bounds of the array.</remarks>
+    /// name="m"/> + <paramref name="n"/> to avoid overwriting memory outside the bounds of the array.
+    /// <para>Time complexity: O((m + n) log(m + n)) due to the sort.</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums1">The first array, which must have sufficient space to hold the elements of both arrays. The first <paramref
     /// name="m"/> elements are considered valid.</param>
     /// <param name="m">The number of valid elements in <paramref name="nums1"/>.</param>
@@ -34,7 +36,9 @@ public class P88_Merge_Sorted_Array
     /// </summary>
     /// <remarks>This method merges the elements of <paramref name="nums2"/> into <paramref name="nums1"/> in
     /// sorted order. The <paramref name="nums1"/> array must have sufficient space to hold all elements from both
-    /// arrays. The result is stored in <paramref name="nums1"/>.</remarks>
+    /// arrays. The result is stored in <paramref name="nums1"/>.
+    /// <para>Time complexity: O(m + n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums1">The first sorted array, which contains the initial elements followed by a buffer of zeros to accommodate the
     /// merged result.</param>
     /// <param name="m">The number of valid elements in <paramref name="nums1"/>.</param>

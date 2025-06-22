@@ -8,8 +8,8 @@ public class P1480_Running_Sum_of_1d_Array
     /// </summary>
     /// <remarks>This method modifies the input array in place. The caller should ensure that the input array
     /// is not shared or reused elsewhere if the original values are needed.
-    /// Time complexity: O(n), where n is the length of the input array.
-    /// Space complexity: O(1), as it modifies the input array directly without using additional space.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para>
     /// </remarks>
     /// <param name="nums">An array of integers. Must not be null.</param>
     /// <returns>An array of integers where each element represents the difference between the current and previous elements in
@@ -27,8 +27,8 @@ public class P1480_Running_Sum_of_1d_Array
     /// <summary>
     /// Calculates the running sum of an array, where each element at index <c>i</c> is the sum of all elements from
     /// index <c>0</c> to <c>i</c> in the input array.
-    /// Time complexity: O(n), where n is the length of the input array.
-    /// Space complexity: O(n), because a new array of the same length as the input is created to store the running sums.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(n) because a new array of the same length as the input is created.</para>
     /// </summary>
     /// <remarks>This method processes the input array in a single pass, making it efficient for large
     /// arrays.</remarks>

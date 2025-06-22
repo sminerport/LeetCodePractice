@@ -4,8 +4,8 @@ public static class MergeStrings1768
 {
     /// <summary>
     /// Merges two strings by alternating characters from each string.
-    /// Time: O(n), where n is the length of the longer string.
-    /// Space: O(n), for the result string.
+    /// <para>Time complexity: O(n) where n is the length of the longer string.</para>
+    /// <para>Space complexity: O(n) for the result string.</para>
     /// </summary>
     /// <param name="word1">The first string to merge.</param>
     /// <param name="word2">The second string to merge.</param>
@@ -30,8 +30,8 @@ public static class MergeStrings1768
 
     /// <summary>
     /// Merges two strings by alternating characters from each string using StringBuilder.
-    /// Time: O(n), where n is the length of the longer string.
-    /// Space: O(n), for the StringBuilder result.
+    /// <para>Time complexity: O(n) where n is the length of the longer string.</para>
+    /// <para>Space complexity: O(n) for the StringBuilder result.</para>
     /// </summary>
     /// <param name="word1">The first string to merge.</param>
     /// <param name="word2">The second string to merge.</param>
