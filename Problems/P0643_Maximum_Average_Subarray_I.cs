@@ -6,7 +6,9 @@ public class P643_Maximum_Average_Subarray_I
     /// Finds the maximum average of any contiguous subarray of length <paramref name="k"/> within the given array.
     /// </summary>
     /// <remarks>This method uses a sliding window approach to efficiently calculate the maximum average. The
-    /// result is computed as a double to ensure precision.</remarks>
+    /// result is computed as a double to ensure precision.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">An array of integers representing the input data.</param>
     /// <param name="k">The length of the contiguous subarray for which the maximum average is calculated. Must be greater than 0 and
     /// less than or equal to the length of <paramref name="nums"/>.</param>

@@ -39,12 +39,12 @@ To execute the console runner or benchmarks:
 
 Implemented solutions currently include:
 
-- [x] 27. Remove Element (`P27_Remove_Element`)
-- [x] 88. Merge Sorted Array (`P88_Merge_Sorted_Array`)
-- [x] 485. Max Consecutive Ones (`P485_Max_Consecutive_Ones`)
-- [x] 605. Can Place Flowers (`P605_Can_Place_Flowers`)
-- [x] 643. Maximum Average Subarray I (`P643_Maximum_Average_Subarray_I`)
-- [x] 977. Squares of a Sorted Array (`P977_Squares_of_a_Sorted_Array`)
+- [x] 27. Remove Element (`P0027_Remove_Element`)
+- [x] 88. Merge Sorted Array (`P0088_Merge_Sorted_Array`)
+- [x] 485. Max Consecutive Ones (`P0485_Max_Consecutive_Ones`)
+- [x] 605. Can Place Flowers (`P0605_Can_Place_Flowers`)
+- [x] 643. Maximum Average Subarray I (`P0643_Maximum_Average_Subarray_I`)
+- [x] 977. Squares of a Sorted Array (`P0977_Squares_of_a_Sorted_Array`)
 - [x] 1004. Max Consecutive Ones III (`P1004_Max_Consecutive_Ones_III`)
 - [x] 1071. Greatest Common Divisor of Strings (`P1071_Greatest_Common_Divisor_of_Strings`)
 - [x] 1089. Duplicate Zeros (`P1089_Duplicate_Zeros`)

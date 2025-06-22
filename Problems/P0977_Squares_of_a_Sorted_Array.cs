@@ -5,7 +5,9 @@ public class P977_Squares_of_a_Sorted_Array
     /// <summary>
     /// Sorts the squares of the integers in the specified array in ascending order using the Bubble Sort algorithm.
     /// </summary>
-    /// <remarks>This method sorts the squares of the integers in the specified array in ascending order.</remarks>
+    /// <remarks>This method sorts the squares of the integers in the specified array in ascending order.
+    /// <para>Time complexity: O(n<sup>2</sup>) due to Bubble Sort.</para>
+    /// <para>Space complexity: O(n) for the copied array.</para></remarks>
     public static int[] SortedSquaresWithBubbleSort(int[] nums)
     {
         int n = nums.Length;
@@ -42,6 +44,10 @@ public class P977_Squares_of_a_Sorted_Array
     /// </summary>
     /// <param name="nums">An array of integers to be squared and sorted. Cannot be null.</param>
     /// <returns>An array of integers containing the squared values of the input array, sorted in ascending order.</returns>
+    /// <remarks>
+    /// <para>Time complexity: O(n log n).</para>
+    /// <para>Space complexity: O(n).</para>
+    /// </remarks>
     public static int[] SortedSquaresWithBuiltInSort(int[] nums)
     {
         int n = nums.Length;
@@ -60,7 +66,10 @@ public class P977_Squares_of_a_Sorted_Array
     /// Computes the squares of the elements in the input array and returns them in ascending order.
     /// </summary>
     /// <remarks>This method uses LINQ to perform the operations. It first computes the square of each element
-    /// in the input array and then sorts the resulting values in ascending order.</remarks>
+    /// in the input array and then sorts the resulting values in ascending order.
+    /// <para>Time complexity: O(n log n).</para>
+    /// <para>Space complexity: O(n).</para>
+    /// </remarks>
     /// <param name="nums">An array of integers to be squared and sorted.</param>
     /// <returns>An array of integers containing the squares of the input elements, sorted in ascending order.</returns>
     public static int[] SortedSquaresWithLINQ(int[] nums)
@@ -74,8 +83,10 @@ public class P977_Squares_of_a_Sorted_Array
     /// <summary>
     /// Returns a new array containing the squares of the elements in the input array, sorted in non-decreasing order.
     /// </summary>
-    /// <remarks>This method efficiently computes the result using a two-pointer approach, ensuring a time
-    /// complexity of O(n). The input array does not need to be pre-sorted.</remarks>
+    /// <remarks>This method efficiently computes the result using a two-pointer approach.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(n).</para>
+    /// The input array does not need to be pre-sorted.</remarks>
     /// <param name="nums">An array of integers. The array can contain positive, negative, or zero values.</param>
     /// <returns>An array of integers where each element is the square of the corresponding element in the input array, sorted in
     /// non-decreasing order.</returns>

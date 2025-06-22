@@ -14,7 +14,9 @@ public class P27_Remove_Element
     /// elements.
     /// </summary>
     /// <remarks>This method modifies the input array <paramref name="nums"/> in place by overwriting
-    /// elements. The order of the remaining elements is preserved.</remarks>
+    /// elements. The order of the remaining elements is preserved.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">The array of integers to process. The array will be modified in place.</param>
     /// <param name="val">The value to remove from the array.</param>
     /// <returns>The number of elements remaining in the array after removing all occurrences of <paramref name="val"/>.</returns>
@@ -36,7 +38,9 @@ public class P27_Remove_Element
     /// Removes all occurrences of a specified value from the given array using a two-pointer approach.
     /// </summary>
     /// <remarks>This method modifies the input array in-place and does not preserve the original order of
-    /// elements. The caller should ensure that the array is not null before invoking this method.</remarks>
+    /// elements. The caller should ensure that the array is not null before invoking this method.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">The array of integers to process. The array is modified in-place.</param>
     /// <param name="val">The value to remove from the array.</param>
     /// <returns>The number of elements removed from the array. The remaining elements in the array are shifted  to the front,
@@ -66,7 +70,9 @@ public class P27_Remove_Element
     /// </summary>
     /// <remarks>This method modifies the input array <paramref name="nums"/> in-place by shifting elements to
     /// fill gaps created by removing occurrences of <paramref name="val"/>. The method does not resize the array;
-    /// instead, the caller should use the returned count to determine the valid portion of the array.</remarks>
+    /// instead, the caller should use the returned count to determine the valid portion of the array.
+    /// <para>Time complexity: O(n<sup>2</sup>) in the worst case due to element shifting.</para>
+    /// <para>Space complexity: O(1).</para></remarks>
     /// <param name="nums">The array of integers to process. This array will be modified in-place.</param>
     /// <param name="val">The value to remove from the array.</param>
     /// <returns>The number of elements remaining in the array after all occurrences of <paramref name="val"/> have been removed.</returns>
