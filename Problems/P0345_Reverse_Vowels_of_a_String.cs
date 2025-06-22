@@ -6,7 +6,7 @@
 /// <remarks>This class is designed to manipulate strings by reversing the order of vowels while preserving the
 /// positions of non-vowel characters. It can be used in scenarios where vowel-specific transformations are
 /// required.</remarks>
-public class P345_Reverse_Vowels_of_a_String
+public class P0345_Reverse_Vowels_of_a_String
 {
     /// <summary>
     /// Determines whether the specified character is a vowel.
