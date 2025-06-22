@@ -1,11 +1,13 @@
-﻿namespace Problems;
+namespace Problems;
 
 /// <summary>
-/// Provides functionality to reverse the vowels in a given string.
+/// LeetCode problem 345. Reverse Vowels of a String. Reverse only the vowels of
+/// a given string while leaving other characters in place.
 /// </summary>
-/// <remarks>This class is designed to manipulate strings by reversing the order of vowels while preserving the
-/// positions of non-vowel characters. It can be used in scenarios where vowel-specific transformations are
-/// required.</remarks>
+/// <remarks>
+/// Category: Two Pointers
+/// LeetCode link: https://leetcode.com/problems/reverse-vowels-of-a-string/
+/// </remarks>
 public class P0345_Reverse_Vowels_of_a_String
 {
     /// <summary>
@@ -14,10 +16,10 @@ public class P0345_Reverse_Vowels_of_a_String
     /// <param name="c">The character to evaluate.</param>
     /// <returns><see langword="true"/> if the specified character is a vowel  (either uppercase or lowercase); otherwise, <see
     /// langword="false"/>.</returns>
-    public bool IsVowel(char c)
+    public static bool IsVowel(char c)
     {
         return c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u' ||
-            c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
+               c == 'A' || c == 'E' || c == 'I' || c == 'O' || c == 'U';
     }
 
     /// <summary>
@@ -29,21 +31,23 @@ public class P0345_Reverse_Vowels_of_a_String
     /// <param name="chars">The array of characters in which the swap will occur. Cannot be null.</param>
     /// <param name="x">The index of the first character to swap. Must be a valid index within the array.</param>
     /// <param name="y">The index of the second character to swap. Must be a valid index within the array.</param>
-    public void swap(char[] chars, int x, int y)
+    private static void Swap(char[] chars, int x, int y)
     {
-        char temp = chars[y];
+        char temp = chars[x];
         chars[x] = chars[y];
-        chars[x] = temp;
+        chars[y] = temp;
     }
 
     /// <summary>
     /// Reverses the order of vowels in the specified string while preserving the positions of non-vowel characters.
     /// </summary>
     /// <remarks>This method considers the English vowels ('a', 'e', 'i', 'o', 'u', both uppercase and
-    /// lowercase) when reversing. Non-vowel characters remain unchanged in their original positions.</remarks>
+    /// lowercase) when reversing.
+    /// <para>Time complexity: O(n).</para>
+    /// <para>Space complexity: O(n) for the character array copy.</para></remarks>
     /// <param name="s">The input string whose vowels will be reversed. Cannot be null.</param>
     /// <returns>A new string with the vowels reversed and all other characters in their original positions.</returns>
-    public string ReverseVowel(string s)
+    public static string ReverseVowels(string s)
     {
         int left = 0;
         int right = s.Length - 1;
@@ -51,22 +55,25 @@ public class P0345_Reverse_Vowels_of_a_String
 
         while (left < right)
         {
-            while (left < s.Length - 1 && !IsVowel(sChar[left]))
+            while (left < right && !IsVowel(sChar[left]))
             {
                 left++;
             }
 
-            while (right >= 0 && !IsVowel(sChar[right]))
+            while (left < right && !IsVowel(sChar[right]))
             {
                 right--;
             }
 
             if (left < right)
             {
-                swap(sChar, left++, right++);
+                Swap(sChar, left, right);
+                left++;
+                right--;
             }
         }
 
         return new string(sChar);
     }
 }
+
