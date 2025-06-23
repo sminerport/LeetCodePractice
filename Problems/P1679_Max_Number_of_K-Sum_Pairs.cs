@@ -1,7 +1,23 @@
 ﻿namespace Problems;
 
+/// <summary>
+/// Provides methods to calculate the maximum number of unique pairs of integers in an array whose sum equals a
+/// specified target value.
+/// </summary>
+/// <remarks>This class includes multiple implementations for solving the problem, such as using a hash map or a
+/// two-pointer approach. Each method is designed to efficiently find pairs while adhering to constraints that each
+/// integer can only be used in one pair.</remarks>
 public class P1679_Max_Number_of_K_Sum_Pairs
 {
+    /// <summary>
+    /// Determines the maximum number of unique pairs of integers in the array that sum to the specified target value.
+    /// </summary>
+    /// <remarks>Each pair consists of two distinct integers from the array, and each integer can only be used
+    /// in one pair. The method uses a single-pass approach with a hash map to efficiently track the frequency of
+    /// integers and their complements.</remarks>
+    /// <param name="nums">An array of integers to search for pairs.</param>
+    /// <param name="k">The target sum for each pair of integers.</param>
+    /// <returns>The maximum number of unique pairs of integers whose sum equals <paramref name="k"/>.</returns>
     public int MaxOperations_SinglePassHashMap(int[] nums, int k)
     {
         var frequencyMap = new Dictionary<int, int>();
