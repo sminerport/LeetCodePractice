@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Problems;
+﻿namespace Problems;
 
 /// <summary>
 /// LeetCode problem 1071. Greatest Common Divisor of Strings. Find the largest string that divides two strings.

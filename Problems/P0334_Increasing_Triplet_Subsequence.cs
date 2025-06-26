@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Problems;
+﻿namespace Problems;
 
 /// <summary>
 /// Provides functionality to determine whether an array contains an increasing triplet subsequence.

@@ -2,6 +2,12 @@
 
 namespace Problems;
 
+/// <summary>
+/// Provides methods for reversing the order of words in a string while removing extra spaces.
+/// </summary>
+/// <remarks>This class includes multiple implementations for reversing words in a string, each with different
+/// approaches. Words are defined as sequences of non-space characters, and consecutive spaces are treated as a single
+/// delimiter. For example, the input "  Hello   World  " will produce "World Hello".</remarks>
 public static class P0151_Reverse_Words_in_a_String
 {
     /// <summary>

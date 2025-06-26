@@ -44,7 +44,7 @@ public class P1456_Maximum_Number_of_Vowels_in_a_Substring_of_Given_Length
         {
             if (vowels.Contains(char.ToLower(s[i])))
                 count++;
-            if (vowels.Contains(s[i - k]))
+            if (vowels.Contains(char.ToLower(s[i - k])))
                 count--;
             if (count > max)
                 max = count;
