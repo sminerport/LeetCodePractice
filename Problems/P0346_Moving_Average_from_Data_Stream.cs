@@ -121,3 +121,4 @@ public class P0346_Moving_Average_from_Data_Stream
             return (double)_windowSum / denominator;
         }
     }
+}
