@@ -1,12 +1,14 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Provides methods to solve the "Two Sum" problem, which involves finding two numbers in an array that add up to a
-/// specified target value.
+/// LeetCode problem 1. Two Sum. Find two numbers in an array that add up to a specified target value.
 /// </summary>
-/// <remarks>This class contains implementations for solving the "Two Sum" problem using different approaches.
-/// The methods return the indices of the two numbers that satisfy the condition, or an empty result if no such pair
-/// exists.</remarks>
+/// <remarks>
+/// Category: Array / Hash Table
+/// LeetCode link: https://leetcode.com/problems/two-sum/
+/// The class contains multiple approaches to return the indices of the two numbers that satisfy the condition.
+/// If no such pair exists an empty array is returned.
+/// </remarks>
 public class P0001_Two_Sum
 {
     /// <summary>

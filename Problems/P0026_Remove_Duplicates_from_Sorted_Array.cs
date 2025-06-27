@@ -1,11 +1,13 @@
 ﻿namespace Problems;
 
 /// <summary>
-/// Provides a solution to remove duplicate elements from a sorted array in-place.
+/// LeetCode problem 26. Remove Duplicates from Sorted Array. Remove duplicates from a sorted array in-place.
 /// </summary>
-/// <remarks>This class contains a method that modifies a sorted array of integers to remove duplicate elements.
-/// The operation is performed in-place, ensuring that the first part of the array contains only unique elements in
-/// sorted order. The number of unique elements is returned as the result.</remarks>
+/// <remarks>
+/// Category: Two Pointers
+/// LeetCode link: https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+/// The method modifies the array so the first part contains only unique elements and returns their count.
+/// </remarks>
 public class P0026_Remove_Duplicates_from_Sorted_Array
 {
     /// <summary>

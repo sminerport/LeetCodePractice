@@ -32,26 +32,42 @@ To execute the console runner or benchmarks:
  dotnet run --project Runner
 
 # Run benchmarks (Release configuration recommended)
- dotnet run -c Release --project Benchmarks
+dotnet run -c Release --project Benchmarks
 ```
+
+A `.gitignore` file is included to exclude common build artifacts such as `bin/`
+and `obj/` directories.
 
 ## Problem List
 
 Implemented solutions currently include:
 
-- [x] 27. Remove Element (`P0027_Remove_Element`) — **Category:** Two Pointers
-- [x] 88. Merge Sorted Array (`P0088_Merge_Sorted_Array`) — **Category:** Two Pointers
-- [x] 485. Max Consecutive Ones (`P0485_Max_Consecutive_Ones`) — **Category:** Sliding Window
-- [x] 605. Can Place Flowers (`P0605_Can_Place_Flowers`) — **Category:** Greedy
-- [x] 643. Maximum Average Subarray I (`P0643_Maximum_Average_Subarray_I`) — **Category:** Sliding Window
-- [x] 977. Squares of a Sorted Array (`P0977_Squares_of_a_Sorted_Array`) — **Category:** Two Pointers
-- [x] 1004. Max Consecutive Ones III (`P1004_Max_Consecutive_Ones_III`) — **Category:** Sliding Window
-- [x] 1071. Greatest Common Divisor of Strings (`P1071_Greatest_Common_Divisor_of_Strings`) — **Category:** String Manipulation
-- [x] 1089. Duplicate Zeros (`P1089_Duplicate_Zeros`) — **Category:** In-place Array
-- [x] 1295. Find Numbers with Even Number of Digits (`P1295_Find_Numbers_with_Even_Number_of_Digits`) — **Category:** Counting
-- [x] 1431. Kids With the Greatest Number of Candies (`P1431_Kids_With_the_Greatest_Number_of_Candies`) — **Category:** Array
-- [x] 1480. Running Sum of 1d Array (`P1480_Running_Sum_of_1d_Array`) — **Category:** Prefix Sum
-- [x] 1768. Merge Strings Alternately (`P1768_MergeStrings`) — **Category:** Two Pointers
+<!-- The list below is generated from the filenames in the `Problems` folder. -->
+- [x] 0001. Two Sum
+- [x] 0026. Remove Duplicates from Sorted Array
+- [x] 0027. Remove Element
+- [x] 0035. Search Insert Position
+- [x] 0088. Merge Sorted Array
+- [x] 0151. Reverse Words in a String
+- [x] 0238. Product of Array Except Self
+- [x] 0334. Increasing Triplet Subsequence
+- [x] 0344. Reverse String
+- [x] 0345. Reverse Vowels of a String
+- [x] 0346. Moving Average from Data Stream
+- [x] 0485. Max Consecutive Ones
+- [x] 0605. Can Place Flowers
+- [x] 0643. Maximum Average Subarray I
+- [x] 0977. Squares of a Sorted Array
+- [x] 1004. Max Consecutive Ones III
+- [x] 1071. Greatest Common Divisor of Strings
+- [x] 1089. Duplicate Zeros
+- [x] 121. Best Time To Buy And Sell Stock
+- [x] 1295. Find Numbers with Even Number of Digits
+- [x] 1431. Kids With the Greatest Number of Candies
+- [x] 1456. Maximum Number of Vowels in a Substring of Given Length
+- [x] 1480. Running Sum of 1d Array
+- [x] 1679. Max Number of K-Sum Pairs
+- [x] 1768. MergeStrings
 
 Each class in the `Problems` folder is paired with tests where available.
 
